@@ -1,0 +1,22 @@
+#include <iostream>
+#include <iomanip> 
+using namespace std;
+  
+int main() {
+  
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+ float A;
+    float B;
+    float MEDIA;
+    cin>>A>>B;
+    MEDIA=((A*3.5)+(B*7.5))/11;
+cout<<fixed<<setprecision(5);
+ 
+    cout<<"MEDIA = "<<MEDIA<<"\n";
+    return 0;
+ 
+}
