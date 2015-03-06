@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip> 
+using namespace std;
+  
+int main() {
+  
+    /**
+     * Escreva a sua solução aqui
+     * Code your solution here
+     * Escriba su solución aquí
+     */
+     int NUMBER,hours;
+float price,SALARY;
+cin>>NUMBER>>hours>>price;
+SALARY=hours*price;
+cout<<fixed<<setprecision(2);
+cout<<"NUMBER = "<<NUMBER<<"\n"<<"SALARY = U$ "<<SALARY<<endl;
+ 
+ 
+     
+  
+    return 0;
+}
