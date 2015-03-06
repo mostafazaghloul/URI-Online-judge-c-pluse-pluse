@@ -1,0 +1,14 @@
+#include <iostream>
+  
+using namespace std;
+  
+int main() {
+  
+  
+cin>>a>>b;
+PROD=a*b;
+cout<<"PROD = "<<PROD<<"\n";
+ 
+  
+    return 0;
+}
